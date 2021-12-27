@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/violet"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/green"
+            android:layout_width="fill_parent"
+            android:layout_height="280dp"
+            android:background="@color/green">
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/tick"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/tick1" />
+
+            <TextView
+                android:id="@+id/paymentsucess"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_below="@+id/tick"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="payment of ₹50 to  laxmi kiranam successful "
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="165dp"
+                android:layout_height="33dp"
+                android:layout_below="@+id/tick"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/vd" />
+
+            <ImageView
+                android:id="@+id/checkbalanc"
+                android:layout_width="132dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tick"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/checkblance">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="330dp"
+            android:layout_below="@+id/green"
+
+
+            android:background="@drawable/ads" />
+
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/done" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+

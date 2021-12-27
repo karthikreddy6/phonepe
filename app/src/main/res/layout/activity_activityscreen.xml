@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activityscreen">
+
+
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gifImageButton"
+        android:layout_width="436dp"
+        android:layout_height="800dp"
+        android:background="@drawable/starting"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingClass,MissingConstraints">
+
+    </pl.droidsonroids.gif.GifImageButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

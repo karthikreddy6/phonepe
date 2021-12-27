@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/violet"
+    android:layout_height="fill_parent">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/firsst"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginBottom="10.0dip"
+            android:background="#ff4caf50">
+
+            <Button
+                android:id="@+id/arr"
+                android:layout_width="35dp"
+                android:layout_height="29dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/arrow_back" />
+
+            <TextView
+                android:id="@+id/trasn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_toRightOf="@id/arr"
+                android:text="Transaction Successful"
+                android:textColor="#ffffffff"
+                android:textSize="15.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tnss"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_below="@+id/trasn"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/arr"
+                android:layout_toRightOf="@id/arr"
+
+                android:text="11:59 AM on 5 Oct 2021"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_below="@+id/firsst"
+            android:layout_marginBottom="20.0dip"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/transactionid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+
+                android:text="Transaction ID"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pptxnid22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transactionid"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+
+                android:text="P2032484594584584538"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="26dp"
+                android:layout_marginBottom="25dp"
+
+                android:text="copy"
+                android:textColor="@color/blue"
+                android:textSize="15.0sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/second"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/white">
+
+
+            <TextView
+                android:id="@+id/paidto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="12dp"
+
+                android:text="Paid to"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/payamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginRight="15dp"
+
+                android:gravity="center_horizontal"
+                android:text="500"
+                android:textColor="@color/black"
+                android:textSize="15.0sp">
+
+            </TextView>
+
+            <ImageView
+
+                android:id="@+id/circularimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="40.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/people1" />
+
+            <TextView
+                android:id="@+id/pname"
+                android:layout_width="183dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="30.0dip"
+                android:layout_toEndOf="@+id/circularimage"
+                android:layout_toRightOf="@id/circularimage"
+
+                android:gravity="center_vertical"
+                android:text="amount"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="94dp"
+                android:layout_marginBottom="19dp"
+                android:text="PAY AGIN"
+                android:textColor="@color/blue"
+                android:textSize="11.0sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="19dp"
+                android:text="SHARE"
+                android:textColor="@color/blue"
+                android:textSize="11.0sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/third">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="390dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="-7dp"
+                android:background="@drawable/bankdown" />
+
+            <TextView
+                android:id="@+id/pbankamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="67dp"
+                android:layout_marginRight="15dp"
+                android:text="500"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="58dp"
+                android:text="******8723"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="84dp"
+                android:fontFamily="@font/chunky"
+                android:text="UTR:125773505970"
+                android:textColor="@color/lightdark"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
